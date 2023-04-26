@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(31, 30, 30);
+   place-items: center;
+   padding: 1%;
+  }
+.container{
+   place-items: center;
+   
+   height: 690px;
+   overflow: hidden; 
+   display: grid;
+   
+  height: 80vh;
+  width: 91vw;
+  padding: 3%;
+}
+.silder-container{
+   
+   display: flex;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+  overflow: hidden;
+  height: 80vh;
+  width: 98%;
+}
+   .img{
+      border-radius: 50px;
+      
+      animation-name: slider;
+      animation-duration: 20s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+      animation-delay: 0s;
+      height: 100%;
+      width: 85vw;
+      padding: 2%;
+   }
+   
+   @keyframes slider {
+      0%{
+         transform: translate(400px);
+      }
+
+      20%{
+         transform: translate(0px);
+         
+      }
+      40%{
+         transform: translateX(calc(-400px*1));
+      }
+
+      60%{
+         transform: translate(calc(-400px*2));
+
+      }
+      80%{
+         transform: translate(calc(-400px*3));
+      }
+100%{
+   transform: translateX(calc(-400px*4));
+}
+      
+   }
+   .photo{
+      border-radius: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      transition: transform 5s;
+      width: 850px;
+      height: 100%;
+   }
+     
+   
+   

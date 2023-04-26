@@ -1,0 +1,179 @@
+#body{
+    background-image: url(photo4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity:0.7 ;
+    padding-top: 5em;
+    padding-left: 25em;
+    padding-bottom: 10em;
+
+    
+}
+
+#heading{
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: aliceblue;
+    border-radius: 5em;
+    box-sizing: content-box;width: 10em;border: solid #070a1b ;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1em;
+
+    
+}
+#main{
+    background-color:gray;
+    border: 3px solid rgb(3, 0, 0);
+    border-radius: 2em;
+    padding-left: 5em;
+    box-sizing: content-box; width: 30em;height:50em;
+    font-size: 1em;
+    
+}
+#firstname{
+    margin-right: 3em;
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+}
+
+#lastname{
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+}
+.address{
+    margin-top: 1em; 
+    color: #01020c;
+    font-family:Serif;;
+}
+#streetaddressbox{
+    width: 20em;
+    padding-bottom: 3em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+    
+    
+    
+}
+#nearplacebox{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 20em;
+    padding-bottom: 3em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+}
+.address2{
+    margin-bottom: 3em;
+    size: 20em;
+    
+}
+#city{
+    margin-right:3em ;
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+
+}
+#Region{
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+    
+}
+.cand_inf{
+    margin-bottom: 3em;
+    padding-top: 5px;
+    
+}
+#contactno{
+    margin-right: 3em;
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+}
+#Email{
+    width: 12em;
+    height: 2em;
+    border: solid 2px rgb(252, 249, 249);
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    text-transform: uppercase;
+}
+#language{
+    width: 20em;
+    border: solid 2px rgb(8, 8, 8);
+    color: black;
+    border-radius: 7px;
+    outline: none;
+    text-transform: uppercase;
+    margin-bottom: 3em;
+    display: flex;
+    background-color:gray;
+    height: 3em;
+    line-height: 20em;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    
+}
+
+#resetbutton{
+    margin-left: 20em;
+    margin-top: 2em;
+    height: 3em;
+    width: 7em;
+    outline: none;
+    border-radius: 1em;
+    color: rgb(245, 234, 234);
+    background-color: #3b09c4;
+    text-shadow: #3b09c4;
+}
+
+#submit{
+    height: 3em;
+    width: 7em;
+    outline: none;
+    border-radius: 1em;
+    color: rgb(245, 234, 234);
+    background-color: #3b09c4
+}

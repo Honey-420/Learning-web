@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Coding classes form
+    </title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body id="body">
+
+    <div id="main">
+
+        <form action="" id="formbody">
+
+            <h1 id="heading">Coding classes form</h1>
+            <label style="font-family:Serif;; color: black;"> Name </label>
+            <div class="name">
+                <input type="text"  placeholder="first name..."    id="firstname" class="inputbox" >
+                <input type="text"  placeholder="last name..."   class="inputbox"   id="lastname">
+            </div>
+
+
+            <div class="address">
+                <label for="">Address</label>
+                <div class="addressinput">
+                    <input type="text"   placeholder="Street address"  class="inputbox"   id="streetaddressbox">
+
+                    <input type="text"   placeholder="Near place"  class="inputbox"   id="nearplacebox">
+                </div>
+            </div>
+
+            <div class="address2">
+                <input type="text"   placeholder="City"   class="inputbox"   id="city">
+                <input type="text"   placeholder="Region"  class="inputbox"   id="Region">
+
+            </div>
+
+            <label for="" style="color: black;font-family:Serif;;">Candidate information </label>
+            <div class="cand_inf">
+                <input type="tel"   placeholder="Contact Number..."  class="inputbox"   minlength="10"   maxlength="10"
+                      id="contactno">
+                <input type="email"   placeholder="Email"   class="inputbox"   id="Email">
+
+            </div>
+
+            <label for="" style="color: black; font-family:Serif;">Language</label>
+            <div>
+                <select id="language">
+                    <option value="">CSS</option>
+                    <option value="">HTML</option>  
+                    <option value="">Java</option>
+                    <option value="">c++</option>
+
+                </select>
+            </div>
+
+            <div id="buttons">
+                <button class="button" id="submit"> SUMBIT </button>
+                <input type="reset" id="resetbutton">
+            </div>
+        </form>
+
+    </div>
+    
+
+</body>
